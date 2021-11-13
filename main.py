@@ -4,7 +4,7 @@ from player import Player
 from camera import ScrollManager
 from controls import Control
 SW, SH = arcade.get_display_size(0)
-Refresh_Rate = 144
+Refresh_Rate = 60
 
 p_speed = 3 / (Refresh_Rate/60)
 
